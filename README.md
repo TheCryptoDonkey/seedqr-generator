@@ -2,6 +2,10 @@
 
 This JavaScript will generate a standard and compact SeedQR code
 
+## Disclaimer
+Please don't feed in your seed phrase into anything that's connected online.   I'm using this tool as a simple generator
+given some seed phrases that i'm using on testnet.  I'm not responsible for any loss of funds.  Use at your own risk!
+
 ## Building
 
 1. Install [Nix](https://nixos.org/download.html) if you haven't already.
