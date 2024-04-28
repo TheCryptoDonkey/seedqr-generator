@@ -1,0 +1,18 @@
+{
+  "name": "seedqr-generator",
+  "version": "1.0.0",
+  "description": "generate standard and compact seedqr codes",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js 'bacon bacon bacon bacon bacon bacon bacon bacon bacon bacon bacon bacon'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bip39": "^3.1.0",
+    "qrcode": "^1.4.4"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "@TheCryptoDonkey",
+  "license": "MIT"
+}
