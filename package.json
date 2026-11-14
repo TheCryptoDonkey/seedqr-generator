@@ -5,11 +5,11 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js 'bacon bacon bacon bacon bacon bacon bacon bacon bacon bacon bacon bacon'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --test test/seedqr.test.js"
   },
   "dependencies": {
-    "bip39": "^3.1.0",
-    "qrcode": "^1.4.4"
+    "@forgesworn/qr": "^0.1.0",
+    "bip39": "^3.1.0"
   },
   "type": "module",
   "keywords": [],
